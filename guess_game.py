@@ -1,7 +1,6 @@
 from random import randint
 
 answer = randint(1, 10)
-print(answer)
 
 while True:
     try:

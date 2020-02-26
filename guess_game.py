@@ -10,6 +10,10 @@ while True:
             if guess==answer:
                 print("genius")
                 break
+            elif guess>answer:
+                print("number is less than this")
+            else:
+                print("number is more than this")
         else:
             print('please enter from 1-10')
     except ValueError:
